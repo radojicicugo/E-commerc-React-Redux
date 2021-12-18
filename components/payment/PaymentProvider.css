@@ -1,0 +1,71 @@
+
+
+#button-payment{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+img{
+    border: rgb(173, 169, 169)
+}
+#naslov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 21px;
+    padding: 17px;
+}
+#cont-payment, Image{
+ 
+    min-width: 20%;
+   
+}
+  
+@media screen and (max-width: 1400px) {
+    #cont-payment{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+@media screen and (max-width: 600px) {
+    #cont-main{
+     margin: 10px 10px;
+     padding: 12px;
+       
+    }
+    #klana-container-img{
+        margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    #cont-payment{
+     display: block;  
+     margin-left: 72px;
+    }
+    #klana-container-img{
+       
+       
+    }
+    #img-active{
+       
+    }
+    #stripe{
+       
+    }
+    #pay{
+       
+    }
+    #naslov{
+        display: block;
+        text-align: center;
+    }
+    #button-payment{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

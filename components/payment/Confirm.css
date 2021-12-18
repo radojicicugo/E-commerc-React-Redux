@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#confirm{
+    margin:21px;
+    padding:11px;
+}
+#h3{
+    margin:1px;
+    padding: 19px;
+
+}
+#order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(100, 96, 96);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  #confirm{
+      text-align: center;
+  }
+   
+   }

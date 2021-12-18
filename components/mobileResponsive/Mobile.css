@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mobile-box{
+    height: 100vh;
+    background-color: rgb(99, 95, 95);
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+}
+#link1{
+    color: white;
+    text-decoration: none;
+    margin:9px;
+    padding:12px
+}
+.mobile-box{
+    display: hidden;
+}

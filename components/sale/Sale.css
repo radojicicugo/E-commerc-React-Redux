@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 40;
+  box-sizing: border-box;
+}
+
+.div-img{
+  display:flex;
+  margin: 23px auto;
+  padding:24px;
+  cursor: pointer;
+}
+
+.img-box{
+  padding: 20px;
+  display: flex;
+  opacity: 0.6;
+}
+.img-box:hover{
+  transition: 0.5s easy;
+  background-color: #b7d1d1;
+  transform: scale()(1.1);
+}
+#btn{
+  display: flex;
+  cursor: pointer;
+  margin:8px;
+  padding: 10px;
+}
+#p{
+  margin:20px;
+  padding: 18px;
+}
+
+
+#components{
+  height: 80px;
+  display: flex;
+  margin-bottom:  0px;
+  padding:0px;
+}
+
+#wrap-img{
+  display: flex;
+  margin: 10px auto;
+  padding:8px;
+  
+}
+
+/* ==== .    Sale */
+
+#box-box{
+  display: flex;
+  padding:0px;
+}
+
+#img-cont{
+  height: 100%;
+  width:100%;
+  display: flex;
+  padding: 8px;
+}
+#img-cont{
+  cursor: pointer;
+  padding: 5px;
+  transition: transform .2s;
+  margin: 0 auto;
+  opacity: 0.6;
+}
+#img-cont:hover{
+  -webkit-transform: scale(0.1); 
+  transform: scale(0.9);
+  opacity: 1; 
+  transition: 0.3s;
+}
+#main-box{
+  display: flex;
+  margin: 35px auto;
+  padding: 18px
+}
+#main-box-main{
+  margin-right:50px;
+  padding: 10px;
+}
+#salesDWoman{
+  display: flex;
+  margin:96px;
+  padding:22px;
+}
+/*
+@media screen and (min-width: 1400px) {
+  .header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  #p{
+    margin-top: 124px;
+  }
+}*/
+@media screen and (max-width: 600px) {
+  .header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+ 
+  #div-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #div-img1-sale{
+    width: 50%;
+    margin: 0px;
+  }
+  #p{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 130px ;
+    padding: 8px;
+  }
+  #lastOne-p{
+    display: none;
+  }
+  #components{
+    display:none;
+  }
+  #box-box{
+    display: none;
+  }
+  #main-box-sale-h2{
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .div-img{
+     display: block;
+  }
+  #div-img1-sale{
+    width:100%;
+    margin: 8px auto;
+  }
+ #p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 24px;
+ }
+ #dl{
+   
+   font-size: 28px;
+ }
+ #btn{
+   margin-left: 20px;
+   font-size: 23px;
+ }
+ #span-price{
+   font-size: 21px;
+  margin-left: 97px;
+ }
+}

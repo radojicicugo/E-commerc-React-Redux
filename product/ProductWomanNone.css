@@ -1,0 +1,27 @@
+@media screen and (max-width: 375px) {
+    #cont1, #cont2, #cont3,#comp-cont{
+     display: none;
+   } 
+   #womanNone-cont{
+       display:block;
+   }
+   #prod-1{
+     border: 1px solid blue;
+   }
+   #prod{
+     width: 30%;
+     margin-left:0px ;
+     padding: 4px;
+   }
+
+  }
+@media screen and (max-width: 1400px) {
+  #womanNone-cont{
+    display:none;
+  }
+}
+@media screen and (max-width: 375px) {
+  #womanNone-cont{
+    display:block;
+  }
+}

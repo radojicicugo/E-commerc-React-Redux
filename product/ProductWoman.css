@@ -1,0 +1,58 @@
+
+#imgJedan{
+display: flex;
+justify-content:center;
+align-items: center;
+}
+#imgJedan:nth-child(){
+  margin: 0px auto
+}
+#imgJedan:nth-child(2){
+  padding-top: 40px;  
+}
+#imgJedan, Image:not:nth-child(3){
+    margin: 0px auto
+}
+#imgJedan:nth-child(4){
+   padding-top: 40px ;
+}
+@media screen and (max-width: 600px) {
+  #comp-cont  {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+     }
+     #mobile-menu-res{
+       
+      margin-left:0px;
+      margin-bottom: 9px;
+      }
+      #imgJedan:nth-child(){
+        margin: 0px ;
+      }
+      #imgJedan:nth-child(2){
+        padding-top: 0px;  
+      }
+      #imgJedan, Image:not:nth-child(3){
+          margin: 0px auto
+      }
+      #imgJedan:nth-child(4){
+         padding-top: 0px ;
+      }
+      #comp-cont{
+        display:none;
+      }
+    }
+    @media screen and (max-width: 375px) {
+         #cont1, #cont2, #cont3,#comp-cont{
+          display: none;
+        } 
+         #hidden{
+           display:none;
+         }
+  }
+  
+
+  
+

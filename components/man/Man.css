@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+}
+.header{
+    margin:10;
+    padding: 10;
+}
+.man-body{
+    margin:23px, auto;
+    padding: 18px;
+    background-color: rgb(221, 215, 215);
+}
+#man-black{
+  margin: 10px;
+  padding: 10px;    
+}
+
+
+@media screen and (max-width: 600px) {
+    . :not(:last-child) {display: none;}
+   
+    #link{
+      padding-top: 24px;
+      font-size: 18px;
+      display:flex;
+      text-align: center;
+      justify-content: center;
+      text-align: center;
+      color: black;
+    }
+    #man13{
+        width:100%;
+    }
+    #man13-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   #man-black12{
+       width:100%;
+   }
+   #man-black12-div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+  }

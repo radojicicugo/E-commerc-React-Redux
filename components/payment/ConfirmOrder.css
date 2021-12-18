@@ -1,0 +1,23 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#order-finall{
+    justify-content: center;
+    margin:94px 89px;
+    padding:23px;
+    justify-content: center;
+    align-items: center;
+}
+#h5{
+    margin:20px;
+    padding:15px;
+}
+@media screen and (max-width: 375px) {
+    #order-finall{
+        text-align: center;
+    }
+     
+     }
